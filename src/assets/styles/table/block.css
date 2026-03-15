@@ -1,0 +1,56 @@
+
+
+* p {
+  margin: 0px;
+  font-weight: 500;
+}
+
+.element-container {
+  width: 90px;      
+  height: 90px;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px; 
+}
+
+.element-atomic-num-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.element-atomic-num-container p {
+  padding: 9px;     
+  font-size: 11px;    
+}
+
+.element-element-symbol-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.element-element-symbol-symbol {
+  font-size: 27px;    
+  margin: 0px;
+}
+
+.element-element-symbol-name {
+  font-size: 11px;    
+  margin: 0px;
+}
+
+.element-atomic-weight-container {
+  height: 20%;
+  display: flex;
+}
+
+.element-atomic-weight-atomic-weight {
+  font-size: 11px;   
+}

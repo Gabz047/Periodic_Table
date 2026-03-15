@@ -1,0 +1,50 @@
+:root {
+    --white-pattern: rgb(124,124,124)
+}
+
+.family-color {
+    height: 15px;
+    width: 15px;
+}
+
+.family-li {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.list-families {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.description-container {
+    position: absolute;
+    width: 53.8%;
+    height: 29%;
+    border-radius: 9px;
+    background-color: rgb(209, 209, 209);
+    top: 30px;
+    left: 195px;
+    padding: 10px;
+}
+
+.description-container table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    
+}
+
+.description-container th {
+    border-bottom: 2px solid var(--white-pattern);
+    border-right: 2px solid var(--white-pattern);
+
+}
+
+.description-container td {
+    border-bottom: 2px solid var(--white-pattern);
+    line-height: 1.8;
+    padding-left: 10px;
+}

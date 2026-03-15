@@ -1,0 +1,16 @@
+.table-container-out {
+    display: flex;
+    justify-content: center;
+    width: 100dvw;
+    position: relative;
+    gap: 15px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1694px;
+    position: relative;
+}
+
