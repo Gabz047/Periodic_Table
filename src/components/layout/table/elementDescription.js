@@ -1,8 +1,5 @@
 import { calculateMass } from "../../../utils/table/tableConstructor"
-const style = document.createElement("link")
-style.rel = "stylesheet"
-style.href = "src/assets/styles/table/elementsDescription.css"
-document.head.appendChild(style)
+import "../../../assets/styles/table/elementsDescription.css"
 
 export function ElementDescription(element) {
     return (

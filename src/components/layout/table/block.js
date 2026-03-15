@@ -1,7 +1,4 @@
-const style = document.createElement("link")
-style.rel = "stylesheet"
-style.href = "src/assets/styles/table/block.css"
-document.head.appendChild(style)
+import "../../../assets/styles/table/block.css"
 
 export function ElementBlock(element) {
     return (

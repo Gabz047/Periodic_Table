@@ -1,9 +1,6 @@
 import { createTable, organizeElements } from "../../../utils/table/tableConstructor.js"
 import { ElementDescription } from "./elementDescription.js"
-const style = document.createElement("link")
-style.rel = "stylesheet"
-style.href = "src/assets/styles/table/table.css"
-document.head.appendChild(style)
+import "../../../assets/styles/table/table.css"
 
 
 const tableSchema = Array.from({ length: 10 }, (_, i) => ({
