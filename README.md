@@ -11,14 +11,6 @@ All 118 elements organized according to periods and families! ⚛️
 
 Completed in a few hours as a **college assignment**, the project applies solid web development concepts with **clean architecture** and **reusable components** — all without frameworks, using semantic `<table>` elements.
 
-## 🚀 Technologies
-
-- **Vanilla JavaScript** (ES6 Modules)
-- **HTML** (Semantic `<table>` elements)
-- **CSS** (Clean, modular styling)
-- **Vite** for fast development server
-- **No frameworks** — pure web standards
-
 ## 💡 Key Concepts Applied
 
 - **Module Pattern** with ES6 imports/exports for code organization
