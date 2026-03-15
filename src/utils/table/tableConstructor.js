@@ -1,4 +1,4 @@
-import { ElementBlock } from "../../components/layout/table/block"
+import { ElementBlock } from "../../components/layout/table/block.js"
 
 export const formatNumber = (n) => {
     return Number(((n ?? "").toString()).replace(",",".").replace(/[^\d.]/g, "")) || null

@@ -1,4 +1,4 @@
-import { calculateMass } from "../../../utils/table/tableConstructor"
+import { calculateMass } from "../../../utils/table/tableConstructor.js"
 import "../../../assets/styles/table/elementsDescription.css"
 
 export function ElementDescription(element) {
