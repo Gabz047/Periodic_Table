@@ -29,37 +29,6 @@ Completed in a few hours as a **college assignment**, the project applies solid 
 - **Semantic HTML** using `<table>` with proper structure
 - **Data-driven rendering** — elements positioned by period and family
 
-## 🎨 Features
-
-✨ **Interactive Elements** — Hover over any element to see detailed information  
-🎯 **Color-coded Families** — Visual distinction between element types (metals, non-metals, noble gases, etc.)  
-📊 **Proper Table Structure** — Using semantic HTML `<table>` elements  
-📱 **Responsive Design** — Works on different screen sizes  
-🧪 **Complete Dataset** — All 118 elements with descriptions  
-
-## 📁 Project Structure
-
-```
-src/
-├── assets/
-│   └── styles/
-│       ├── main.css
-│       └── table/
-│           ├── table.css
-│           ├── block.css
-│           └── elementsDescription.css
-├── components/
-│   └── layout/
-│       └── table/
-│           ├── table.js
-│           ├── block.js
-│           └── elementDescription.js
-└── utils/
-    └── table/
-        ├── elementsData.js
-        └── tableConstructor.js
-```
-
 ## 🚀 Getting Started
 
 ### Install dependencies
